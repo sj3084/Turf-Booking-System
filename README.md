@@ -1,6 +1,9 @@
-#Problem Statement
+Problem Statement
+
 Develop a mobile application for booking turf time slots. The application should allow users to sign up, log in using email or Google Sign-In, select a turf venue, pick a date and time slot, and book a time for usage. It should ensure that users are authenticated, prevent double booking of slots, and manage user sessions efficiently. The app should also display a waiting room feature, where users can view other users booked for the same slot, and a confirmation page summarizing booking details.
-#Solution
+
+Solution
+
 A Turf Booking System mobile app that includes the following main features and components:
 User Authentication: The app uses Firebase Authentication to support email-based and Google-based sign-ins. It manages login and registration through a Firebase backend.
 Turf Booking: Users select a venue, date, and time slot to book. Firebase Realtime Database is used to store booking details, and a function checks the availability of selected slots to prevent double bookings.
