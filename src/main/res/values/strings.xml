@@ -1,0 +1,29 @@
+<!-- strings.xml -->
+<resources>
+    <string name="app_name">MAD Project</string>
+    <string name="select_date">Select Date</string>
+    <string name="book_slot">Book Slot</string>
+    <string name="enter_name">Enter Name</string>
+    <string name="enter_phone">Enter Phone Number</string>
+    <string name="leave_room">Leave Room</string>
+    <string name="slot_booked">Slot booked!</string>
+    <string name="slot_unavailable">This slot is already booked.</string>
+    <string name="waiting_room">Waiting Room</string>
+    <string name="default_web_client_id">927162225820-odd8o0d8p1juiqffhrtjgal64dfnh97k.apps.googleusercontent.com</string>
+
+
+    <!-- Define venues -->
+    <string-array name="venues">
+        <item>Venue 1</item>
+        <item>Venue 2</item>
+    </string-array>
+
+    <!-- Define hourly slots -->
+    <string-array name="hourly_slots">
+        <item>9:00 AM - 10:00 AM</item>
+        <item>10:00 AM - 11:00 AM</item>
+        <item>11:00 AM - 12:00 PM</item>
+        <item>12:00 PM - 1:00 PM</item>
+        <!-- Add more slots as needed -->
+    </string-array>
+</resources>
